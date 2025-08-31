@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cttricks/wb-agent/refs/heads/master/agent.ico" width="80" alt="WB-Agent Icon"/>
+  <img src="https://raw.githubusercontent.com/cttricks/wb-agent/refs/heads/master/assets/agent.ico" width="80" alt="WB-Agent Icon"/>
 </p>
 
 <h1 align="center">WB-Agent</h1>
@@ -16,6 +16,12 @@
 
 <p align="center">
   Translate natural language into SQL queries easily. Works seamlessly with MySQL Workbench & phpMyAdmin.
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cttricks/wb-agent/refs/heads/master/assets/demo.gif" alt="Demo">
+  <br>
+  ——————————
 </p>
 
 WB-Agent is a small, fun side project I built using Go. It's designed to translate natural language into SQL queries, making it dynamic enough for anyone to tweak and use with MySQL Workbench, phpMyAdmin, or any other tool you prefer.
