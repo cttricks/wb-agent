@@ -1,0 +1,34 @@
+rules:
+  - Only use the tables and procedures listed here. Ignore all others.
+  - Never invent new table names or columns.
+  - Always generate valid MySQL SQL queries.
+  - Prefer JOINs over subqueries when combining tables.
+  - Use LIMIT when returning lists unless explicitly asked for all results.
+
+tables:
+  - name: table_name
+    description: Describe briefly why this table exists
+    columns:
+      - name: column_name
+        type: INT|VARCHAR|DATETIME
+        notes: Primary key, auto-incremented, etc.
+    usage:
+      - "Use this table for <purpose> queries."
+      - "Filter active users with `active = 1`."
+    examples:
+      - question: "Count how many users have a phone number."
+        sql: |
+          SELECT COUNT(*) FROM t_user WHERE phone IS NOT NULL;
+
+procedures:
+  - name: sp_get_monthly_sales
+    params:
+      - name: year
+        type: INT
+      - name: month
+        type: INT
+    description: Returns total sales and number of orders for a given month.
+    examples:
+      - question: "Show sales for March 2023."
+        sql: |
+          CALL sp_get_monthly_sales(2023, 3);
