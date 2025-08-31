@@ -45,7 +45,7 @@ If you want to dive deeper, you can **clone the repo** and start experimenting r
 
 ### Getting Started
 
-- Check **Windows-Setup-Guide.md** for instructions on local setup and usage.  
+- Check [**Windows-Setup-Guide.md**](/Windows-Setup-Guide.md) for instructions on local setup and usage.  
 - This will guide you through running the tool, connecting it to your workbench, and generating SQL queries from natural language.
 
 ### Contributions & Collaboration
