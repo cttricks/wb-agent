@@ -1,0 +1,7 @@
+# Folders
+.build
+.trash
+.vscode
+
+# Files
+.env
